@@ -9,3 +9,12 @@ O data set household é mto pesado para ser colocado no github, arquivo do data 
 
 
 Os exercicios que utilizaram do aplicativo ORANGE estarão em pastas separadas na pasta CP SERS
+
+
+##Integrantes
+
+Erick gimenez - RM 564748
+Henrique Boscoli - RM 563651
+Joao Henrique - RM 563578
+Sergio Mirabelo - RM 562161
+Tomazzo Canterucci - RM 565566
