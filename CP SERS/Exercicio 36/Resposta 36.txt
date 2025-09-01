@@ -1,1 +1,0 @@
-As variaveis presentes no data set são 9 sendo elas  Date, Time, Global_active_power ,  Global_reactive_power , Voltage , Global_intensity , Sub_metering_1 , Sub_metering_2, Sub_metering_3  e 2,075,259 instances (registros).
