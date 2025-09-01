@@ -1,0 +1,8 @@
+ada cluster representa um padrão distinto de consumo doméstico:
+
+Cluster 1: Baixo consumo 
+
+Cluster 2: Consumo moderado 
+
+Cluster 3: Alto consumo
+Os grupos estão bem separados no gráfico, mostrando que o K-Means identificou comportamentos diferentes de uso de energia na casa. 

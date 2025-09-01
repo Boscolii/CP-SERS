@@ -1,0 +1,1 @@
+As variáveis Voltage e Global_intensity parecem ser independentes ou ter correlação muito fraca que não é visível nesta visualização. A ausência de qualquer padrão linear ou não-linear claro indica que não há relação evidente entre essas duas variáveis elétricas nos dados apresentados. 
