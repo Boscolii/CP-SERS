@@ -1,0 +1,1 @@
+Sim , a distribuição de Global_active_power na amostra de 1% é semelhante à base completa.

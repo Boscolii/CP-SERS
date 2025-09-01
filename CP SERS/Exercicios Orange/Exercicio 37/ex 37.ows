@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import" position="(125.0, 240.0)" />
+		<node id="1" name="Data Sampler" qualified_name="Orange.widgets.data.owdatasampler.OWDataSampler" project_name="Orange3" version="" title="Data Sampler" position="(278.0, 257.0)" />
+		<node id="2" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Distributions" position="(239.0, 351.0)" />
+		<node id="3" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Distributions (1)" position="(421.0, 267.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="1" sink_node_id="3" source_channel="Data Sample" sink_channel="Data" enabled="true" source_channel_id="data_sample" sink_channel_id="data" />
+		<link id="2" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'C:/Users/olajo/OneDrive/Área de Trabalho/individual+household+electric+power+consumption/household_power_consumption.txt'}, {'encoding': 'utf-8', 'delimiter': ';', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 9, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/olajo/OneDrive/Área de Trabalho/Nova pasta (4)/household_power_consumption.csv.txt'}, {'encoding': 'utf-8', 'delimiter': ';', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 9, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': ',', 'group_separator': ' '})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/olajo/OneDrive/Área de Trabalho/individual+household+electric+power+consumption', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04&lt;\x00\x00\x012\x00\x00\x05T\x00\x00\x02\x9d\x00\x00\x04=\x00\x00\x01Q\x00\x00\x05S\x00\x00\x02\x9c\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x04=\x00\x00\x01Q\x00\x00\x05S\x00\x00\x02\x9c', '__version__': 3}</properties>
+		<properties node_id="1" format="literal">{'compatibility_mode': False, 'controlAreaVisible': True, 'number_of_folds': 10, 'replacement': True, 'sampleSizeNumber': 1, 'sampleSizePercentage': 1, 'sampleSizeSqlPercentage': 0.1, 'sampleSizeSqlTime': 1, 'sampling_type': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x07D\x00\x00\x01\x03\x00\x00\x08,\x00\x00\x02\xc8\x00\x00\x07E\x00\x00\x01"\x00\x00\x08+\x00\x00\x02\xc7\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x07E\x00\x00\x01"\x00\x00\x08+\x00\x00\x02\xc7', 'selectedFold': 1, 'sql_dl': False, 'stratify': True, 'use_seed': True, '__version__': 2}</properties>
+		<properties node_id="2" format="pickle">gASVJQQAAAAAAAB9lCiMCmF1dG9fYXBwbHmUiIwSY29udHJvbEFyZWFWaXNpYmxllIiMEGN1bXVs
+YXRpdmVfZGlzdHKUiYwTZml0dGVkX2Rpc3RyaWJ1dGlvbpRLAIwJaGlkZV9iYXJzlImMDWtkZV9z
+bW9vdGhpbmeUSwqME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAABVQAAADrAAAI6QAA
+A10AAAVVAAABCgAACOgAAANcAAAAAAAAAAAKAAAABVUAAAEKAAAI6AAAA1yUjApzaG93X3Byb2Jz
+lImMDHNvcnRfYnlfZnJlcZSJjA9zdGFja2VkX2NvbHVtbnOUiYwLX192ZXJzaW9uX1+USwKMEGNv
+bnRleHRfc2V0dGluZ3OUXZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGU
+fZQojAZ2YWx1ZXOUfZQojARjdmFylE5K/v///4aUjA5udW1iZXJfb2ZfYmluc5RLAEr+////hpSM
+DXNlbGVjdGVkX2JhcnOUj5RK/v///4aUjAN2YXKUjBNHbG9iYWxfYWN0aXZlX3Bvd2VylEtmhpRo
+DEsCdYwKYXR0cmlidXRlc5R9lCiMBERhdGWUSwSMBFRpbWWUSwRoHksCjBVHbG9iYWxfcmVhY3Rp
+dmVfcG93ZXKUSwKMB1ZvbHRhZ2WUSwKMEEdsb2JhbF9pbnRlbnNpdHmUSwKMDlN1Yl9tZXRlcmlu
+Z18xlEsCjA5TdWJfbWV0ZXJpbmdfMpRLAowOU3ViX21ldGVyaW5nXzOUSwJ1jAVtZXRhc5R9lHVi
+aBEpgZR9lChoFH2UKGgWTkr+////hpRoGEsASv7///+GlGgaj5RK/v///4aUaB1OSv7///+GlGgM
+SwJ1aCB9lGgqfZSMeURhdGU7VGltZTtHbG9iYWxfYWN0aXZlX3Bvd2VyO0dsb2JhbF9yZWFjdGl2
+ZV9wb3dlcjtWb2x0YWdlO0dsb2JhbF9pbnRlbnNpdHk7U3ViX21ldGVyaW5nXzE7U3ViX21ldGVy
+aW5nXzI7U3ViX21ldGVyaW5nXzOUSwNzdWJoESmBlH2UKGgUfZQoaBZOSv7///+GlGgYSwBK/v//
+/4aUaBqPlEr+////hpRoHYwOU3ViX21ldGVyaW5nXzOUS2WGlGgMSwJ1aCB9lCiMBERhdGWUSwSM
+BFRpbWWUSwSMDlN1Yl9tZXRlcmluZ18xlEsBjA5TdWJfbWV0ZXJpbmdfMpRLAYwOU3ViX21ldGVy
+aW5nXzOUSwF1aCp9lCiME0dsb2JhbF9hY3RpdmVfcG93ZXKUSwOMFUdsb2JhbF9yZWFjdGl2ZV9w
+b3dlcpRLA4wHVm9sdGFnZZRLA4wQR2xvYmFsX2ludGVuc2l0eZRLA3V1YmV1Lg==
+</properties>
+		<properties node_id="3" format="pickle">gASVJQQAAAAAAAB9lCiMCmF1dG9fYXBwbHmUiIwSY29udHJvbEFyZWFWaXNpYmxllIiMEGN1bXVs
+YXRpdmVfZGlzdHKUiYwTZml0dGVkX2Rpc3RyaWJ1dGlvbpRLAIwJaGlkZV9iYXJzlImMDWtkZV9z
+bW9vdGhpbmeUSwqME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAcEAAADuAAAFVgAA
+A0UAAAHCAAABDQAABVUAAANEAAAAAAAAAAAKAAAAAcIAAAENAAAFVQAAA0SUjApzaG93X3Byb2Jz
+lImMDHNvcnRfYnlfZnJlcZSJjA9zdGFja2VkX2NvbHVtbnOUiYwLX192ZXJzaW9uX1+USwKMEGNv
+bnRleHRfc2V0dGluZ3OUXZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGU
+fZQojAZ2YWx1ZXOUfZQojARjdmFylE5K/v///4aUjA5udW1iZXJfb2ZfYmluc5RLAEr+////hpSM
+DXNlbGVjdGVkX2JhcnOUj5RK/v///4aUjAN2YXKUjBNHbG9iYWxfYWN0aXZlX3Bvd2VylEtmhpRo
+DEsCdYwKYXR0cmlidXRlc5R9lCiMBERhdGWUSwSMBFRpbWWUSwRoHksCjBVHbG9iYWxfcmVhY3Rp
+dmVfcG93ZXKUSwKMB1ZvbHRhZ2WUSwKMEEdsb2JhbF9pbnRlbnNpdHmUSwKMDlN1Yl9tZXRlcmlu
+Z18xlEsCjA5TdWJfbWV0ZXJpbmdfMpRLAowOU3ViX21ldGVyaW5nXzOUSwJ1jAVtZXRhc5R9lHVi
+aBEpgZR9lChoFH2UKGgWTkr+////hpRoGEsASv7///+GlGgaj5RK/v///4aUaB1OSv7///+GlGgM
+SwJ1aCB9lGgqfZSMeURhdGU7VGltZTtHbG9iYWxfYWN0aXZlX3Bvd2VyO0dsb2JhbF9yZWFjdGl2
+ZV9wb3dlcjtWb2x0YWdlO0dsb2JhbF9pbnRlbnNpdHk7U3ViX21ldGVyaW5nXzE7U3ViX21ldGVy
+aW5nXzI7U3ViX21ldGVyaW5nXzOUSwNzdWJoESmBlH2UKGgUfZQoaBZOSv7///+GlGgYSwBK/v//
+/4aUaBqPlEr+////hpRoHYwOU3ViX21ldGVyaW5nXzOUS2WGlGgMSwJ1aCB9lCiMBERhdGWUSwSM
+BFRpbWWUSwSMDlN1Yl9tZXRlcmluZ18xlEsBjA5TdWJfbWV0ZXJpbmdfMpRLAYwOU3ViX21ldGVy
+aW5nXzOUSwF1aCp9lCiME0dsb2JhbF9hY3RpdmVfcG93ZXKUSwOMFUdsb2JhbF9yZWFjdGl2ZV9w
+b3dlcpRLA4wHVm9sdGFnZZRLA4wQR2xvYmFsX2ludGVuc2l0eZRLA3V1YmV1Lg==
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
