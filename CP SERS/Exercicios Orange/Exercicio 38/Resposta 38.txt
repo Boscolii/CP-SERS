@@ -1,0 +1,1 @@
+O consumo geral é baixo na maioria do tempo, com poucos momentos de alto consumo  ja que  maior parte das barras está agrupada à esquerda (valores baixos de consumo)
